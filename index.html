@@ -6,46 +6,32 @@
     <title>swingshop - 全球激安通販市場</title>
     <style>
         body { font-family: "Helvetica Neue", Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0; }
-        .top-nav { background: #000; color: #fff; padding: 5px 20px; font-size: 12px; display: flex; justify-content: space-between; }
         .header { background: #e60012; color: white; padding: 20px; text-align: center; border-bottom: 5px solid #b3000e; }
-        .shop-name { font-size: 40px; font-weight: bold; letter-spacing: 2px; margin: 0; }
-        .sub-text { font-size: 14px; margin-top: 5px; }
-        .hero-banner { background: #fff9c4; padding: 15px; text-align: center; border-bottom: 1px solid #ddd; color: #d32f2f; font-weight: bold; }
+        .shop-name { font-size: 40px; font-weight: bold; margin: 0; }
+        .yasui-text { font-size: 16px; margin-top: 5px; color: #fff; }
         .main-container { max-width: 1000px; margin: 20px auto; padding: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .product-card { background: white; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; transition: 0.3s; }
-        .product-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
-        .product-card img { width: 100%; height: 250px; object-fit: contain; background: #fafafa; padding: 10px; box-sizing: border-box; }
-        .card-body { padding: 15px; text-align: center; }
-        .card-body h2 { font-size: 18px; margin: 10px 0; color: #333; height: 50px; overflow: hidden; }
-        .price { color: #e60012; font-size: 28px; font-weight: bold; margin: 10px 0; }
-        .yasui { color: #ff0000; font-size: 14px; font-weight: normal; }
+        .product-card { background: white; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; text-align: center; padding: 15px; }
+        .product-card img { width: 100%; height: 250px; object-fit: contain; background: #fff; }
+        .price { color: #e60012; font-size: 28px; font-weight: bold; }
+        .yasui-label { color: #ff0000; font-size: 14px; }
         .btn { display: block; background: #e60012; color: white; padding: 12px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px; }
         .footer { background: #333; color: #ccc; text-align: center; padding: 30px; font-size: 12px; }
     </style>
 </head>
 <body>
 
-<div class="top-nav">
-    <span>ようこそ、swingshopへ</span>
-    <span>ログイン / 会員登録</span>
-</div>
-
 <div class="header">
     <h1 class="shop-name">swingshop</h1>
-    <p class="sub-text">（やすいよ）</p>
-</div>
-
-<div class="hero-banner">
-    ⚠️ 警告：在庫が急速に減少しています。
+    <p class="yasui-text">（やすいよ）</p>
 </div>
 
 <div class="main-container">
     <div class="product-card">
-        <img src="https://r.jina.ai/i/9c926c48972e42369677332f14300302" alt="Switch 2">
+        <img src="https://images.nintendolife.com/60933758364b9/nintendo-switch-oled-model.900x.jpg" alt="Switch 2">
         <div class="card-body">
             <h2>最新型 Switsh 2 本体<br>(デジタル版)</h2>
-            <p class="price">4,999円 <span class="yasui">（やすいよ）</span></p>
-            <a href="switch2.html" class="btn">今すぐ購入 / 立即購買</a>
+            <p class="price">4,999円 <span class="yasui-label">（やすいよ）</span></p>
+            <a href="switch2.html" class="btn">Switch 2 を詳しく見る</a>
         </div>
     </div>
 
@@ -53,8 +39,8 @@
         <img src="https://drive.google.com/thumbnail?id=186M5SBM06T8TIEL6YFrJhQ7I2lPBfbKd&sz=w500" alt="張ばあさん">
         <div class="card-body">
             <h2>張ばあさん<br>(ポスト投函パック)</h2>
-            <p class="price">2,980円 <span class="yasui">（やすいよ）</span></p>
-            <a href="obaasan.html" class="btn">今すぐ購入 / 立即購買</a>
+            <p class="price">2,980円 <span class="yasui-label">（やすいよ）</span></p>
+            <a href="obaasan.html" class="btn">張ばあさんを詳しく見る</a>
         </div>
     </div>
 </div>
