@@ -1,100 +1,83 @@
-<div class="header">
-    【燥理勅訌】 在庫一掃！本日限り 90% OFF！！
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swingshop - 全球激安通販市場</title>
+    <style>
+        body { font-family: "Helvetica Neue", Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0; }
+        .top-nav { background: #000; color: #fff; padding: 5px 20px; font-size: 12px; display: flex; justify-content: space-between; }
+        .header { background: #e60012; color: white; padding: 20px; text-align: center; border-bottom: 5px solid #b3000e; }
+        .shop-name { font-size: 40px; font-weight: bold; letter-spacing: 2px; margin: 0; }
+        .sub-text { font-size: 14px; margin-top: 5px; }
+        
+        .hero-banner { background: #fff9c4; padding: 15px; text-align: center; border-bottom: 1px solid #ddd; color: #d32f2f; font-weight: bold; }
+        
+        .main-container { max-width: 1000px; margin: 20px auto; padding: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        
+        .product-card { background: white; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; transition: 0.3s; position: relative; }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .product-card img { width: 100%; height: 250px; object-fit: contain; background: #fafafa; padding: 10px; box-sizing: border-box; }
+        
+        .card-body { padding: 15px; text-align: center; }
+        .card-body h2 { font-size: 18px; margin: 10px 0; color: #333; height: 50px; overflow: hidden; }
+        .price { color: #e60012; font-size: 28px; font-weight: bold; margin: 10px 0; }
+        .yasui { color: #ff0000; font-size: 14px; font-weight: normal; }
+        
+        .btn { display: block; background: #e60012; color: white; padding: 12px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px; }
+        .btn:hover { background: #ff1a1a; }
+        
+        .info-bar { text-align: center; padding: 40px; color: #666; font-size: 18px; }
+        .footer { background: #333; color: #ccc; text-align: center; padding: 30px; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+<div class="top-nav">
+    <span>ようこそ、swingshopへ</span>
+    <span>ログイン / 会員登録</span>
 </div>
 
-<div class="container">
-    <div class="product-title">最新型 任天堂Switsh 2 本体（デジタル・ダウンロード版）</div>
+<div class="header">
+    <h1 class="shop-name">swingshop</h1>
+    <p class="sub-text">全球から激安の商品をあなたに。高品質。本物。</p>
+</div>
 
-    <div class="product-main">
-        <div class="product-image">
-            <img src="https://lh3.googleusercontent.com/d/1UZi04Von5Nv1yqnyRquA4a70Qob_nxOd" alt="商品画像">
-        </div>
-        <div class="product-info">
-            <p class="old-price">通常価格：79,800円</p>
-            <div class="price-area">
-                <span class="label">特別価格：</span>
-                <span class="new-price">4,999円</span> <span class="tax">(税込)</span>
-            </div>
-            
-            <div class="timer-box">
-                タイムセール終了まで残り：<br>
-                <span id="countdown">00:15:00</span>
-            </div>
-            
-            <p class="stock">在庫： 残りわずか！ 只有 3 個！</p>
-            <div class="badge">新品入荷</div>
+<div class="hero-banner">
+    ⚠️ 警告：在庫が急速に減少しています。今買わないと、二度と手に入らない可能性があります。
+</div>
+
+<div class="main-container">
+    <div class="product-card">
+        <img src="https://r.jina.ai/i/9c926c48972e42369677332f14300302" alt="Switch 2">
+        <div class="card-body">
+            <h2>最新型 Switsh 2 本体<br>(デジタル版)</h2>
+            <p class="price">4,999円 <span class="yasui">（やすいよ）</span></p>
+            <p style="font-size:12px; color:#666;">即時ダウンロード対応</p>
+            <a href="switch2.html" class="btn">今すぐ購入 / 立即購買</a>
         </div>
     </div>
 
-    <div class="caution-box">
-        <div class="caution-tag">重要なお知らせ</div>
-        <p>※この商品はハードウェアではありません。「Switsh 2」の本体データをあなたのSDカードに直接転送します。</p>
-        <p class="fun-text">たのしいよ。</p>
-        <p>次世代の高速技術により、配送を待つ必要がありません。購入後、すぐに遊べるはずです。</p>
+    <div class="product-card">
+        <img src="https://drive.google.com/thumbnail?id=186M5SBM06T8TIEL6YFrJhQ7I2lPBfbKd&sz=w500" alt="張ばあさん">
+        <div class="card-body">
+            <h2>張ばあさん<br>(ポスト投函パック)</h2>
+            <p class="price">2,980円 <span class="yasui">（やすいよ）</span></p>
+            <p style="font-size:12px; color:#666;">日本全国送料無料</p>
+            <a href="obaasan.html" class="btn">今すぐ購入 / 立即購買</a>
+        </div>
     </div>
+</div>
 
-    <div class="description-section">
-        <h3>製品の紹介 / 產品介紹</h3>
-        <ul>
-            <li>100% 本物保証（偽物ではありません）</li>
-            <li>全国迅速発送、最高品質のサービスを提供します。</li>
-            <li>すべてのソフトが動く可能性があります。だび、だび。</li>
-        </ul>
-        <p class="chinese-text">我司提供最先端技術、支持全球下載。不用購買実体機、直接進入遊戯世界！！</p>
-    </div>
-
-    <div class="buy-button">
-        在庫不足のため購入不可
-    </div>
-    
-    <div class="payment">
-        支払い方法：銀行振込のみ（ビッビコン歓迎）
-    </div>
+<div class="info-bar">
+    <p>私たちの商品はすべて公式です。だび、だび。</p>
+    <p><strong>たのしいよ。</strong></p>
 </div>
 
 <div class="footer">
-    Copyright &copy; 2026 全球激安通販市場. All Resighted<br>
-    特定商取引法に基づく表記 | お問い合わせ | 返品について（不可）
+    <p>swingshop | 特定商取引法に基づく表記 | プライバシーポリシー | お問い合わせ</p>
+    <p>Copyright &copy; 2026 swingshop Global Market. All Resighted.</p>
 </div>
 
-<style>
-    body { font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif; background-color: #f8f8f8; margin: 0; padding: 20px; color: #333; }
-    .header { background-color: #e60012; color: white; padding: 12px; text-align: center; font-size: 18px; font-weight: bold; }
-    .container { max-width: 800px; margin: 0 auto; background: white; border: 1px solid #ccc; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-    .product-title { font-size: 22px; font-weight: bold; margin-bottom: 20px; border-bottom: 3px solid #e60012; padding-bottom: 10px; }
-    .product-main { display: flex; gap: 20px; flex-wrap: wrap; }
-    .product-image { flex: 1; min-width: 280px; }
-    .product-image img { width: 100%; border: 1px solid #ddd; }
-    .product-info { flex: 1; min-width: 250px; }
-    .old-price { color: #888; text-decoration: line-through; font-size: 14px; margin-bottom: 5px; }
-    .price-area { margin-bottom: 15px; background: #fff0f0; padding: 10px; border-radius: 4px; }
-    .new-price { color: #e60012; font-size: 32px; font-weight: bold; }
-    .timer-box { background: #333; color: #00ff00; padding: 10px; text-align: center; font-family: monospace; font-size: 18px; margin-bottom: 15px; border: 2px solid #555; }
-    .stock { color: #d32f2f; font-weight: bold; font-size: 14px; }
-    .caution-box { background: #fffbe6; border: 1px solid #ffe58f; padding: 15px; margin: 25px 0; position: relative; }
-    .caution-tag { background: #faad14; color: white; padding: 2px 10px; position: absolute; top: -12px; left: 10px; font-size: 12px; }
-    .fun-text { font-size: 20px; font-weight: bold; color: #ff4d4f; text-align: center; margin: 5px 0; }
-    .buy-button { display: block; width: 100%; height: 60px; background: #ccc; color: #888; text-align: center; line-height: 60px; font-size: 20px; font-weight: bold; margin: 30px auto; border-radius: 4px; cursor: not-allowed; }
-    .footer { text-align: center; font-size: 11px; color: #aaa; border-top: 1px solid #eee; padding-top: 20px; margin-top: 30px; }
-</style>
-
-<script>
-    function startTimer(duration, display) {
-        var timer = duration, hours, minutes, seconds;
-        setInterval(function () {
-            hours = parseInt(timer / 3600, 10);
-            minutes = parseInt((timer % 3600) / 60, 10);
-            seconds = parseInt(timer % 60, 10);
-            hours = hours < 10 ? "0" + hours : hours;
-            minutes = minutes < 10 ? "0" + minutes : minutes;
-            seconds = seconds < 10 ? "0" + seconds : seconds;
-            display.textContent = hours + ":" + minutes + ":" + seconds;
-            if (--timer < 0) { timer = duration; }
-        }, 1000);
-    }
-    window.onload = function () {
-        var fifteenMinutes = 60 * 15;
-        var display = document.querySelector('#countdown');
-        startTimer(fifteenMinutes, display);
-    };
-</script>
+</body>
+</html>
